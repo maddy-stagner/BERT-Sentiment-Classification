@@ -1,0 +1,7 @@
+data_path: data/raw/training.1600000.processed.noemoticon.csv
+sample_size: 5000
+batch_size: 16
+max_len: 32
+epochs: 5
+learning_rate: 5e-5
+model_save_path: models/bert_sentiment_model/model.pth
