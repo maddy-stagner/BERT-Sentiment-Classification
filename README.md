@@ -21,38 +21,6 @@ Dataset: A sample of 5,000 tweets from the Sentiment140 dataset, split into 80% 
 
 Performance: Achieves a test accuracy of 78.4% with balanced precision, recall, and F1-scores for both classes.
 
-Repository Structure
-
-BERT-Sentiment-Classification/
-│
-├── data/
-│   ├── raw/
-│   │   └── training.1600000.processed.noemoticon.csv  # Original Sentiment140 dataset
-│   └── processed/
-│       └── sentiment_data_sample.csv                   # Sampled and preprocessed data (optional)
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_preprocessing.py    # Data loading and preprocessing functions
-│   ├── dataset.py              # Custom Dataset and DataLoader setup
-│   ├── model.py                # BERT model training logic
-│   ├── evaluation.py           # Model evaluation functions
-│   └── utils.py                # Helper functions (e.g., model saving)
-│
-├── notebooks/
-│   └── Q3NLPMADHAV.ipynb       # Original Jupyter notebook with implementation
-│
-├── models/
-│   └── bert_sentiment_model/    # Directory for saved model weights
-│
-├── scripts/
-│   └── train.py                # Script to run the training pipeline
-│
-├── requirements.txt            # Python dependencies
-├── README.md                   # Project documentation (this file)
-├── LICENSE                     # MIT License
-└── config.yaml                 # Configuration file for hyperparameters
-
 Dataset
 
 The dataset is a subset of the Sentiment140 dataset, which contains 1.6 million tweets labeled for sentiment:
